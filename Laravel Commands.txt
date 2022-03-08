@@ -1,0 +1,52 @@
+Laravel Application
+
+MVC (Model View Controller)
+
+
+View (HTML,CSS,JS,jQuery,Bootstrap)
+
+	Laravel_App
+			--->resources
+					--->views
+							1.
+							2.
+
+So Every Laravel View Must Contain extention ".blade.php"
+
+
+What are rountes?
+		
+		website:port/someroute
+
+So on which route which view file will be loaded is controlled by routing system.
+
+127.0.0.1:8000/anil   ----> anil.blade.php
+127.0.0.1:8000/krishnapal   ----> krishnapal.blade.php
+
+Folder Structure for routing system
+	routing system
+				routes/web.php
+
+How the routing system work in Laravel?
+
+
+How to send data to view in laravel?
+or 
+Different ways for passing data to view in Laravel?
+
+Compact is a core php function
+
+https://www.w3schools.com/php/func_array_compact.asp
+
+
+1. view()
+2. compact()
+3. with()
+4. Controller Class
+
+
+composer create-project laravel/laravel <project_name>
+ 
+cd <project_name>
+ 
+php artisan serve
